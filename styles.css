@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #555;
+}
+
+/*header*/
+#header {
+    background-color: #2c8c3e;
+    height: 75px;
+    width: 100%;
+    line-height: 75px;
+    padding: 0 20px;
+}
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: 10px;
+}
+#header a:hover {
+    color: #222;
+}
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+    margin-right: 50px;
+}
+#header-nav li {
+    display: inline;
+}
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+/*footer*/
+#footer {
+    background-color: #2f2f2f;
+    padding: 10px 20px;
+    font-size: .75em;
+}
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#footer p {
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+a {
+    color: #2c8c3e;
+    text-decoration: none;
+}
+a:hover {
+    color: #F6A623;
+}
+p {
+    line-height: 1.5
+}
+
+
+.column {
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 45px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.clearfield::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Welcome & About */
+.welcome, .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    opacity: 1;
+}
+.announcement {
+    background-color: #caddc1;
+    text-align: center;
+    padding: 5px;
+    max-width: 400px;
+    margin: 10px auto 20px auto;
+}
+.about-author img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.welcome h1{
+    font-size: 2.5em;
+    color: white;
+}
+.welcome img{
+    width:200px;
+    height: 200px;
+}
+.welcome-text {
+    background-color: black;
+    opacity: 1.0;
+    color: white;
+    padding: 1px 10px 10px 10px;
+    border-radius: 20px;
+}
+.pimg {
+    margin: 0 auto;
+    background-image: url('building.jpg');
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Log In*/
+.log {
+    margin: 0px 20px 75px;
+}
+.clearfield {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logbox{
+    float: left;
+    width: 30%;
+    min-width: 150px;
+    min-height: 300px;
+    margin: 5px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.3;
+}
+.logbox:hover {
+    opacity: 1;
+}
+.logbox:nth-child(odd){
+    background-color: #f2f2f2
+}
+.loginput{
+    margin: 5px;
+    padding: 4px;
+    height: 25px;
+}
+.logbutton{
+    margin: 10px;
+    height: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #2c8c3e;
+}
+.regbutton{
+    height: 50px;
+    width: 125px;
+    font-size: 1.25em;
+    margin-top: 30px;
+}
+
+/* Registration*/
+#formholder{
+    margin: auto;
+}
+.regform {
+    margin-left: 30px;
+    padding: 10px 5px;
+}
+.regform label {
+    float: left;
+    font-weight: 550;
+    width: 300px;
+}
+.regform input, select, textarea {
+    display:inline-block;
+    padding: 5px;
+    margin-top: 5px;
+}
+.regform select{
+    height: 27px;
+    width: 100px;
+}
+.regform button {
+    height: 50px;
+    width: 100px;
+    font-size: 1.25em;
+    margin: 0 300px 30px;
+}
